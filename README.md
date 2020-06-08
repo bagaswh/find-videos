@@ -1,6 +1,6 @@
 # find-videos
 
-Find videos in a directory and calculate the total duration of those videos
+Find videos recursively in a directory and calculate the total duration of those videos
 
 ```shell
 node index.js -p ~/Videos/database-management
