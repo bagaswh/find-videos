@@ -9,6 +9,8 @@ node index.js -p ~/Videos/database-management
 Output
 
 ```
-Number of videos: 53
-Total duration: 24951.541079
+53 | 24951.541079
 ```
+
+The first part before the pipe notation is the total number of videos inside a directory.
+The second part is the total duration.

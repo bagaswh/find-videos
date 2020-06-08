@@ -38,8 +38,7 @@ function sum(arr) {
     Promise.all(tasks)
       .then(sum)
       .then((sum) => {
-        console.log('Number of videos:', videosCount);
-        console.log('Total duration:', sum);
+        console.log(videosCount, '|', sum);
       });
   }
 })();
